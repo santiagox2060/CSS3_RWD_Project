@@ -1,0 +1,45 @@
+body{
+  font-family: 'Dancing Script';
+  width: 90%;
+	margin-left: 5%;
+  background-color: #02010a;
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+.contenedor{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  display: flex;
+  flex-flow: row wrap;
+}
+.titulo{
+  margin-left: 3%;
+  text-align: center;
+}
+.barra{
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.titulo, .barra {
+	width: 100%;
+}
+#a_inicio:link, #a_inicio:visited{
+  text-decoration: none !important;
+}
+a:link, a:visited {
+  margin-left: 2%;
+	color: white;
+}
+
+@media (min-width: 600px) {
+	.titulo {
+		width: 67%;
+	}
+
+	.barra {
+		width: 30%;
+	}
+}
