@@ -1,45 +1,64 @@
 body{
   font-family: 'Dancing Script';
-  width: 90%;
-	margin-left: 5%;
   background-color: #02010a;
 }
 header{
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;
 }
+.contenedorGeneral{
+    margin: 0 auto;
+}
 .contenedor{
+  box-sizing: border-box;
   color: white;
   text-shadow: 2px 2px 2px #02010a;
   display: flex;
   flex-flow: row wrap;
+  animation: miAnimacion 1s;
 }
 .titulo{
   margin-left: 3%;
-  text-align: center;
 }
 .barra{
   text-align: center;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  padding-bottom: 2%;
 }
 .titulo, .barra {
 	width: 100%;
+  text-align: center;
 }
-#a_inicio:link, #a_inicio:visited{
-  text-decoration: none !important;
+.active{
+  text-decoration: none;
 }
 a:link, a:visited {
   margin-left: 2%;
 	color: white;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
+  body{
+    max-width: 900px;
+  }
 	.titulo {
-		width: 67%;
+		width: 58%;
+    text-align: left;
 	}
 
 	.barra {
-		width: 30%;
+		width: 35%;
+    padding-top: 30px;
 	}
+}
+
+@-webkit-keyframes miAnimacion{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+margin-top: 0%;
+  }
 }
