@@ -56,6 +56,22 @@ li{
   margin-left: -40px;
 }
 
+.imagen-central{
+  width: 100%;
+  background-color: #82c3a6
+}
+
+.central{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  max-width: 90%;
+  margin: auto;
+}
+
+.central img{
+  max-width: 100%;
+}
+
 @media (min-width: 900px) {
   .contenedorGeneral{
       width: 900px;
