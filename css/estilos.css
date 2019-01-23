@@ -117,6 +117,21 @@ li{
   }
 }
 
+.paisaje, .retrato{
+  border: 1px solid;
+}
+
+.paisaje:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 10px 0 #82c3a6;
+  border-right: 2px solid;
+}
+.retrato:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px 10px 0 #82c3a6;
+  border: 2px solid;
+}
+
 @-webkit-keyframes miAnimacion{
   0%{
     margin-top: 150%;
