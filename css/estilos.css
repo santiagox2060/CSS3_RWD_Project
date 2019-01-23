@@ -58,7 +58,12 @@ li{
 
 .imagen-central{
   width: 100%;
-  background-color: #82c3a6
+  background-color: #82c3a6;
+}
+
+.imagen-secundario{
+  width: 100%;
+  background-color:  #d5c75f;
 }
 
 .central{
@@ -68,7 +73,14 @@ li{
   margin: auto;
 }
 
-.central img{
+.imagen-paisajes, .imagen-retratos{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  max-width: 90%;
+  margin: auto;
+}
+
+.central img, .secundario img{
   max-width: 100%;
 }
 
