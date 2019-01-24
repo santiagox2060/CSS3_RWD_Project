@@ -71,6 +71,49 @@ li{
   background-color:  #d5c75f;
 }
 
+.pagpag{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pag-paisajes{
+  width: 100%;
+  background-color:  #d5c75f;
+}
+
+.paisaje-box{
+  max-width: 80%;
+  margin: auto;
+}
+
+.paisaje-1, .paisaje-2, .paisaje-3, .paisaje-4, .paisaje-5, .paisaje-6{
+  max-width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid;
+}
+
+/* retratos */
+.pag-retratos{
+  width: 100%;
+  background-color:  #d5c75f;
+}
+
+.retrato-box{
+  max-width: 80%;
+  margin: auto;
+}
+
+.retrato-1, .retrato-2, .retrato-3, .retrato-4, .retrato-5, .retrato-6{
+  max-width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid;
+}
+
+
 .secundario{
   display: flex;
   flex-flow: row wrap;
@@ -119,6 +162,12 @@ li{
   .imagen-paisajes, .imagen-retratos{
     max-width: 42.5%;
     margin: auto;
+  }
+  .paisaje-box{
+    max-width: 30%;
+  }
+  .retrato-box{
+    max-width: 30%;
   }
 }
 
